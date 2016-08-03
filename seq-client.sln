@@ -28,7 +28,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeqSlabExample", "example\S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{22E15F9D-1EE6-45B9-83B9-0C08132B0E86}"
 	ProjectSection(SolutionItems) = preProject
-		appveyor.yml.tmp = appveyor.yml.tmp
+		appveyor.yml1 = appveyor.yml1
 	EndProjectSection
 EndProject
 Global
