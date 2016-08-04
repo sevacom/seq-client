@@ -3,10 +3,10 @@
   <metadata>
     <id>Seq.Client.Log4Net.1.2.10</id>
     <version>$version$</version>
-    <authors>Continuous IT Pty Ltd</authors>
+    <authors>Continuous IT Pty Ltd, sevacom</authors>
     <description>Apache log4net appender that writes to the Seq event server over HTTP.</description>
     <language>en-US</language>
-    <projectUrl>https://github.com/continuousit/seq-client</projectUrl>
+    <projectUrl>https://github.com/sevacom/seq-client</projectUrl>
     <licenseUrl>http://apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <iconUrl>http://getseq.net/images/nuget/seq-client-log4net.png</iconUrl>
     <dependencies>
