@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Seq.Client.Log4Net</id>
+    <id>Seq.Client.Log4Net.1.2.10</id>
     <version>$version$</version>
-    <authors>Continuous IT Pty Ltd</authors>
+    <authors>Continuous IT Pty Ltd, sevacom</authors>
     <description>Apache log4net appender that writes to the Seq event server over HTTP.</description>
     <language>en-US</language>
-    <projectUrl>https://github.com/continuousit/seq-client</projectUrl>
+    <projectUrl>https://github.com/sevacom/seq-client</projectUrl>
     <licenseUrl>http://apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <iconUrl>http://getseq.net/images/nuget/seq-client-log4net.png</iconUrl>
     <dependencies>
-      <dependency id="log4net" />
-      <dependency id="Microsoft.Net.Http" />
+      <dependency id="log4net" version="1.2.10"/>
+      <dependency id="Microsoft.Net.Http" version="2.2.28"/>
     </dependencies>
     <tags>seq log4net structured logging events</tags>
   </metadata>

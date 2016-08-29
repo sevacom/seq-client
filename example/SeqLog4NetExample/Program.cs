@@ -12,16 +12,16 @@ namespace SeqLog4NetExample
 
             var log = LogManager.GetLogger(typeof(Program));
 
-            log.InfoFormat("Hello, {0}, from log4net!", Environment.UserName);
+            log.InfoFormat("Hello, {0}, from log4net! DateNow {1}", Environment.UserName, DateTime.Now);
 
-            try
-            {
-                throw new DivideByZeroException();
-            }
-            catch (Exception ex)
-            {
-                log.Error("Oops!", ex);
-            }
+			//try
+			//{
+			//	throw new DivideByZeroException();
+			//}
+			//catch (Exception ex)
+			//{
+			//	log.Error("Oops!", ex);
+			//}
 
             Console.ReadKey();
         }
